@@ -17,5 +17,10 @@ while True:
         a.append(i)
     b.append(a)
     print(b)
-    if len(b) == 100:
+    if len(b) == 10:
         break
+
+nums = [1,3,5,6,97,7]
+names = ["ha","sdada"]
+numsss = nums + names
+print(numsss)
